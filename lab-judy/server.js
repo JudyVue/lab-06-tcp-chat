@@ -64,12 +64,9 @@ server.on('connection', function(socket){
     socket.on('close', function(){
       pool.forEach((c, i) => {
         if(c.nickname === client.nickname){
-          console.log('pool.before', pool);
           pool.splice(i, 1);
           //TODO: This isn't writing to the chatroom
           ee.emit('\\all', client, ' logged out.');
-          console.log(`${client.nickname} logged out`);
-          console.log('pool after', pool);
           return;
         }
       });
