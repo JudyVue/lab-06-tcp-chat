@@ -1,0 +1,27 @@
+{
+  "name": "lab-06-tcp-chat",
+  "version": "1.0.0",
+  "description": "Day 6 Lab",
+  "main": "index.js",
+  "dependencies": {
+    "node-uuid": "^1.4.7"
+  },
+  "devDependencies": {
+    "eslint": "^3.5.0",
+    "gulp": "^3.9.1",
+    "mocha": "^3.0.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JudyVue/lab-06-tcp-chat.git"
+  },
+  "author": "Judy Vue",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JudyVue/lab-06-tcp-chat/issues"
+  },
+  "homepage": "https://github.com/JudyVue/lab-06-tcp-chat#readme"
+}
