@@ -4,6 +4,7 @@
   "description": "Day 6 Lab",
   "main": "index.js",
   "dependencies": {
+    "dotenv": "^4.0.0",
     "node-uuid": "^1.4.7"
   },
   "devDependencies": {
@@ -12,7 +13,8 @@
     "mocha": "^3.0.2"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
